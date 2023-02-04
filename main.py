@@ -30,4 +30,4 @@ if place:
             image_paths = [images[condition] for condition in sky_conditions]
             st.image(image_paths, width=100)
     except KeyError:
-        st.write("Data for place does not exist")
+        st.write("Data for place unavailable")
